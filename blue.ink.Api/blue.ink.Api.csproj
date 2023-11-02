@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\blue.ink.Domain\blue.ink.Domain.csproj" />
+    <ProjectReference Include="..\blue.ink.Data\blue.ink.Data.csproj" />
   </ItemGroup>
 
 </Project>

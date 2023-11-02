@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Api", "blue.ink.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Domain", "blue.ink.Domain\blue.ink.Domain.csproj", "{9F624D32-3E17-4E52-9037-1DD552277A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Data", "blue.ink.Data\blue.ink.Data.csproj", "{F4D95521-75CF-4E13-B6AE-D1A870C660A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9F624D32-3E17-4E52-9037-1DD552277A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F624D32-3E17-4E52-9037-1DD552277A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F624D32-3E17-4E52-9037-1DD552277A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
