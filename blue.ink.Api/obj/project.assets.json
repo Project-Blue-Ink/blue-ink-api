@@ -108,6 +108,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "blue.ink.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "blue.ink.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/blue.ink.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/blue.ink.Data.dll": {}
+        }
+      },
       "blue.ink.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -471,6 +484,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "blue.ink.Data/1.0.0": {
+      "type": "project",
+      "path": "../blue.ink.Data/blue.ink.Data.csproj",
+      "msbuildProject": "../blue.ink.Data/blue.ink.Data.csproj"
+    },
     "blue.ink.Domain/1.0.0": {
       "type": "project",
       "path": "../blue.ink.Domain/blue.ink.Domain.csproj",
@@ -481,6 +499,7 @@
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0",
+      "blue.ink.Data >= 1.0.0",
       "blue.ink.Domain >= 1.0.0"
     ]
   },
@@ -509,6 +528,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
+              "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj"
+            },
             "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
               "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
             }
