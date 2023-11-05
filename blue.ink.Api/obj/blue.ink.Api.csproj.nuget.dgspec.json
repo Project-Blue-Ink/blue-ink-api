@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj": {}
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.api\\blue.ink.Api.csproj": {}
   },
   "projects": {
-    "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj": {
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.api\\blue.ink.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.api\\blue.ink.Api.csproj",
         "projectName": "blue.ink.Api",
-        "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
-        "packagesPath": "/Users/yves/.nuget/packages/",
-        "outputPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/obj/",
+        "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.api\\blue.ink.Api.csproj",
+        "packagesPath": "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/yves/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Tianrui Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
-                "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj"
+              "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj": {
+                "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj"
               },
-              "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
-                "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
+              "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj"
               }
             }
           }
@@ -48,6 +48,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -73,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj",
         "projectName": "blue.ink.Data",
-        "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj",
-        "packagesPath": "/Users/yves/.nuget/packages/",
-        "outputPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/obj/",
+        "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj",
+        "packagesPath": "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/yves/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Tianrui Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -99,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
-                "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
+              "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj"
               }
             }
           }
@@ -114,6 +124,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -130,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj",
         "projectName": "blue.ink.Domain",
-        "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
-        "packagesPath": "/Users/yves/.nuget/packages/",
-        "outputPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/obj/",
+        "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/yves/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Tianrui Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -183,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
