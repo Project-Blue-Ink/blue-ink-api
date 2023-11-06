@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DUHohmf+Jtbi592/9DRH+IJfBIEuY4G2hUiREFkNdQO0kejA1ZgnNFvnSa3Eg+uZszCPwfz92RkZ9Zb3qcqsKg==",
+  "dgSpecHash": "pgCzzSGtwIgU1A86QU17yXDyoYQxt6SEDJeMoM+FH/WXHGRrCLC+m/jnj4P161WFBfyxAnsl3jF8YHgCBLAHxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj",
+  "projectFilePath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
