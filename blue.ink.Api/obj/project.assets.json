@@ -1443,6 +1443,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.13"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -5964,6 +5976,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+      "sha512": "Z2edRVeoCqvWdNNHHoqbiNhRBetXfh/GBAga6bXM0mmRWzYZ0Y8F+jUFWF/8BUdnbv/8RAafIkWLVMT0jdxMLQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/7.0.13",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -11983,6 +12020,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.13",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "blue.ink.Data >= 1.0.0",
@@ -11990,19 +12028,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/winnie/.nuget/packages/": {}
+    "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Api\\blue.ink.Api.csproj",
       "projectName": "blue.ink.Api",
-      "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
-      "packagesPath": "/Users/winnie/.nuget/packages/",
-      "outputPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/obj/",
+      "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Api\\blue.ink.Api.csproj",
+      "packagesPath": "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/winnie/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Tianrui Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -12014,11 +12052,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/winnie/repo/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
-              "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj"
+            "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj": {
+              "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Data\\blue.ink.Data.csproj"
             },
-            "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
-              "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
+            "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj"
             }
           }
         }
@@ -12051,6 +12089,12 @@
             "target": "Package",
             "version": "[7.0.13, )"
           },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.13, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.11, )"
@@ -12079,7 +12123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
