@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xmnhry2w2zHrJeKe6i+zMWIbksEaT7sYg+78+0S7ineJwQj72E+XB0TCGdViu7dvdUnBq66UjrS/Iy2g5SuQJQ==",
+  "dgSpecHash": "pgCzzSGtwIgU1A86QU17yXDyoYQxt6SEDJeMoM+FH/WXHGRrCLC+m/jnj4P161WFBfyxAnsl3jF8YHgCBLAHxw==",
   "success": true,
-  "projectFilePath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
+  "projectFilePath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -12028,19 +12028,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yves/.nuget/packages/": {}
+    "/Users/winnie/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
+      "projectUniqueName": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
       "projectName": "blue.ink.Api",
-      "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
-      "packagesPath": "/Users/yves/.nuget/packages/",
-      "outputPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Api/obj/",
+      "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/blue.ink.Api.csproj",
+      "packagesPath": "/Users/winnie/.nuget/packages/",
+      "outputPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yves/.nuget/NuGet/NuGet.Config"
+        "/Users/winnie/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -12052,11 +12052,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
-              "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj"
+            "/Users/winnie/repo/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj": {
+              "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Data/blue.ink.Data.csproj"
             },
-            "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
-              "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
+            "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
+              "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj"
             }
           }
         }

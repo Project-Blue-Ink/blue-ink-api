@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/yves/.nuget/packages/": {}
+    "/Users/winnie/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
+      "projectUniqueName": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
       "projectName": "blue.ink.Domain",
-      "projectPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
-      "packagesPath": "/Users/yves/.nuget/packages/",
-      "outputPath": "/Users/yves/Documents/GitHub/blue-ink-api/blue-ink-api/blue.ink.Domain/obj/",
+      "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
+      "packagesPath": "/Users/winnie/.nuget/packages/",
+      "outputPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yves/.nuget/NuGet/NuGet.Config"
+        "/Users/winnie/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
