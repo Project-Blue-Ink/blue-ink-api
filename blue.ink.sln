@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Domain", "blue.ink
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Data", "blue.ink.Data\blue.ink.Data.csproj", "{F4D95521-75CF-4E13-B6AE-D1A870C660A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{622CE804-E578-4284-A005-FEC4C3DF2C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue.ink.Domain.Tests", "tests\blue.ink.Domain.Tests\blue.ink.Domain.Tests.csproj", "{E811EFB6-A6BF-4250-B98C-806B2578B340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D95521-75CF-4E13-B6AE-D1A870C660A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E811EFB6-A6BF-4250-B98C-806B2578B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E811EFB6-A6BF-4250-B98C-806B2578B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E811EFB6-A6BF-4250-B98C-806B2578B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E811EFB6-A6BF-4250-B98C-806B2578B340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E811EFB6-A6BF-4250-B98C-806B2578B340} = {622CE804-E578-4284-A005-FEC4C3DF2C5A}
 	EndGlobalSection
 EndGlobal
