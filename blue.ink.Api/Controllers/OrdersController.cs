@@ -1,17 +1,17 @@
-//The command in instruction wouldn't run and professor said to build it ourselves
-//We copied the CatalogControllers file and used Google to build it
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using blue.ink.Data;
 using blue.ink.Domain.Orders;
-using System.Threading.Tasks;
-using System.Linq;
 
 namespace blue.ink.Api.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("api/[controller]")] // Updated route
     public class OrdersController : ControllerBase
     {
         private readonly StoreContext _context;
@@ -23,16 +23,23 @@ namespace blue.ink.Api.Controllers
 
         // GET: api/Orders
         [HttpGet]
-        public async Task<IActionResult> GetOrders()
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            var orders = await _context.Orders.ToListAsync();
-            return Ok(orders);
+          if (_context.Orders == null)
+          {
+              return NotFound();
+          }
+            return await _context.Orders.ToListAsync();
         }
 
         // GET: api/Orders/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetOrder(int id)
+        public async Task<ActionResult<Order>> GetOrder(int id)
         {
+          if (_context.Orders == null)
+          {
+              return NotFound();
+          }
             var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
@@ -40,10 +47,11 @@ namespace blue.ink.Api.Controllers
                 return NotFound();
             }
 
-            return Ok(order);
+            return order;
         }
 
         // PUT: api/Orders/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(int id, Order order)
         {
@@ -74,19 +82,28 @@ namespace blue.ink.Api.Controllers
         }
 
         // POST: api/Orders
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<IActionResult> PostOrder(Order order)
+        public async Task<ActionResult<Order>> PostOrder(Order order)
         {
+          if (_context.Orders == null)
+          {
+              return Problem("Entity set 'StoreContext.Orders'  is null.");
+          }
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, order);
+            return CreatedAtAction("GetOrder", new { id = order.Id }, order);
         }
 
         // DELETE: api/Orders/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
             var order = await _context.Orders.FindAsync(id);
             if (order == null)
             {
@@ -96,12 +113,12 @@ namespace blue.ink.Api.Controllers
             _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
 
-            return Ok(order);
+            return NoContent();
         }
 
         private bool OrderExists(int id)
         {
-            return _context.Orders.Any(e => e.Id == id);
+            return (_context.Orders?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
