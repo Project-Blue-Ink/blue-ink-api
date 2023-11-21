@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {}
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {}
   },
   "projects": {
-    "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj": {
+    "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj",
         "projectName": "blue.ink.Domain",
-        "projectPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/blue.ink.Domain.csproj",
-        "packagesPath": "/Users/winnie/.nuget/packages/",
-        "outputPath": "/Users/winnie/repo/blue-ink-api/blue.ink.Domain/obj/",
+        "projectPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\blue.ink.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tianrui Zhang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tianrui Zhang\\Documents\\GitHub\\blue-ink-api\\blue.ink.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/winnie/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Tianrui Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
