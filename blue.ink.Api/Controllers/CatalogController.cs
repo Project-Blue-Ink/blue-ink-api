@@ -75,6 +75,7 @@ namespace blue.ink.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id)
         {
             var item = _db.Items.Find(id);
