@@ -45,7 +45,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:5215")
+        builder.WithOrigins("http://localhost:5215",
+        "https://red-pebble-07ffe890f.4.azurestaticapps.net")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
