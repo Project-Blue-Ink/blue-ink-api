@@ -1,0 +1,11 @@
+### GET token from Auth0
+curl --request POST \
+  --url https://dev-hyqq1bfsliotgme6.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"SD5ethLNAUN51D7lMpYrMMYjqyDUNl2K","client_secret":"KFJ6RD4cCkJAWVKsgd-6VS7e88ucCb5yH6oVkJGlNNss5hq7iw0mUyYlvkx-ZN8P","audience":"https://blue-ink/","grant_type":"client_credentials"}'
+
+### DELETE a Item to the Catalog collection
+curl --request DELETE \
+  --url http://localhost:5215/catalog/3 \
+  --header 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ikp6azc5Tm5Xc2VBV2xCOGlZM3diVSJ9.eyJpc3MiOiJodHRwczovL2Rldi1oeXFxMWJmc2xpb3RnbWU2LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJTRDVldGhMTkFVTjUxRDdsTXBZck1NWWpxeURVTmwyS0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9ibHVlLWluay8iLCJpYXQiOjE3MDE4MTgyOTksImV4cCI6MTcwMTkwNDY5OSwiYXpwIjoiU0Q1ZXRoTE5BVU41MUQ3bE1wWXJNTVlqcXlEVU5sMksiLCJzY29wZSI6ImRlbGV0ZTpjYXRhbG9nIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.PSVaKVgjhPaPHoJSykYS6mZhrw684wov-TQjzAX-4vyCFy3xG7Rx2--JViPK9sFIxQ7k7t3Dgw9n3njM69wTZS2WZmi5Pc0OmHH4ubEyAY6O1-aRLxq1ocEr67JLBPKjjWg2Hy8LnqPcBpfqG1l04A8gvn_lDvAOrpjQMyURNcZaYawK_kDIFpIKxpCayUORBGIRRI2-O9P5xm03VN4BNd-laid6Ii7vW0-4oMXrJHvCVT9LGfoumqtBRe_g_jR4fGDk6KQPHgYg9OBA5u-oRKEp0h1aeqCXrPdUu2d7Id7qOtJbRIAWG5roTTWivn78uFIV8MtPAQOGIz3L9BZkvg'
+    
