@@ -2,7 +2,8 @@ using blue.ink.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using Blue.Ink.Api.Security;
-using Microsoft.AspNetCore.Authorization.JwtBearer;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ string authrity = builder.Configuration["Auth0:Authority"] ??
 string audience = builder.Configuration["Auth0:Audience"] ??
     throw new ArgumentNullException("Auth0:Audience");
 
+string storeConnectionString = builder.Configuration.GetConnectionString("StoreConnection") ??
+    throw new ArgumentNullException("ConnectionString:StoreConnection");
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -35,7 +38,7 @@ builder.Services.AddAuthorization(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<StoreContext>(options =>
-    options.UseSqlite("Data Source=../Registrar.sqlite",
+    options.UseSqlServer(storeConnectionString,
     b => b.MigrationsAssembly("blue.ink.Api"))
 );
 builder.Services.AddCors(options =>
@@ -60,8 +63,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors();
-app.UseAuthorization();
-app.UseAutentication();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

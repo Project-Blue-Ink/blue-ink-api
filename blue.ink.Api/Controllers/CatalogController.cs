@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using blue.ink.Domain.Catalog;
 using blue.ink.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace blue.ink.Api.Controllers
 {
